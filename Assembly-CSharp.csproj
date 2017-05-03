@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{790FBA7E-3482-F3C6-A739-40F606A1C5FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/ProgramesClasse/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/ProgramesClasse/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\LIVES\CamaraFollow.cs" />
+     <Compile Include="Assets\LIVES\Projectil\shooter.cs" />
+     <Compile Include="Assets\LIVES\Shoot\furrBall.cs" />
+     <Compile Include="Assets\LIVES\Shoot\shootSomething.cs" />
+     <Compile Include="Assets\LIVES\Zombie\zombiepatrol.cs" />
+     <Compile Include="Assets\LIVES\flowerlifescript.cs" />
+     <Compile Include="Assets\Ori Bash\bashable.cs" />
+     <Compile Include="Assets\Ori Bash\oriYbash.cs" />
+     <Compile Include="Assets\Player &amp; General\Destroy.cs" />
+     <Compile Include="Assets\Player &amp; General\DestroyByTime.cs" />
+     <Compile Include="Assets\Player &amp; General\SimplePlayer0.cs" />
+     <Compile Include="Assets\Player &amp; General\SimplePlayer1.cs" />
+     <Compile Include="Assets\Player &amp; General\playercontroller.cs" />
+     <Compile Include="Assets\SHOOTING\furrBall.cs" />
+     <Compile Include="Assets\Sign_tag.cs" />
+     <Compile Include="Assets\WEAPONS\WeaponManager.cs" />
+     <Compile Include="Assets\WEAPONS\WeaponPickup.cs" />
+     <Compile Include="Assets\WEAPONS\weapon.cs" />
+     <Compile Include="Assets\animationhandler.cs" />
+     <Compile Include="Assets\climbledges.cs" />
+     <Compile Include="Assets\onebut2attacks.cs" />
+     <Compile Include="Assets\pullorpush.cs" />
+     <Compile Include="Assets\pushable.cs" />
+     <Compile Include="Assets\quicksandTEST.cs" />
+     <Compile Include="Assets\slowTEST.cs" />
+     <Compile Include="Assets\walkonwalls.cs" />
+     <Compile Include="Assets\www\10 - 12 Door &amp; Switch\DoorScript.cs" />
+     <Compile Include="Assets\www\10 - 12 Door &amp; Switch\DoorTrigger.cs" />
+     <Compile Include="Assets\www\10 - 12 Door &amp; Switch\SwitchScript.cs" />
+     <Compile Include="Assets\www\14 - Distance Meter\meter.cs" />
+     <Compile Include="Assets\www\16,17 - Enemy\SimpleEnemyScripy.cs" />
+     <Compile Include="Assets\www\18 - Trap\trapscript.cs" />
+     <Compile Include="Assets\www\2 Tags 1 GameObject\tags.cs" />
+     <Compile Include="Assets\www\2 Tags 1 GameObject\tagsDetector.cs" />
+     <Compile Include="Assets\www\20-24,26 Player Double Jump, Run, Blink\playerv2script.cs" />
+     <Compile Include="Assets\www\25 - Tooltip\Tooltip.cs" />
+     <Compile Include="Assets\www\28-30 Highscore, Change Level\EndLevelScript.cs" />
+     <Compile Include="Assets\www\28-30 Highscore, Change Level\LvlManager.cs" />
+     <Compile Include="Assets\www\29,30 - Score System\Collectables2.cs" />
+     <Compile Include="Assets\www\31,32 - Moving Platform\platformEmitter.cs" />
+     <Compile Include="Assets\www\33 - Go Throught Platform\platform_gothrought.cs" />
+     <Compile Include="Assets\www\34 - Trampoline\trampolinescript.cs" />
+     <Compile Include="Assets\www\38 - Fall Damage\FallDmg.cs" />
+     <Compile Include="Assets\www\43,46-48 - Blink\blink2.cs" />
+     <Compile Include="Assets\www\44-45.5 - Checkpoints\checkpoint.cs" />
+     <Compile Include="Assets\www\44-45.5 - Checkpoints\checkpointHandler.cs" />
+     <Compile Include="Assets\www\49 - BreakableObject\breakableobject.cs" />
+     <Compile Include="Assets\www\50 - Grab &amp; Throw\grabberscript.cs" />
+     <Compile Include="Assets\www\51,52 - GrapplingHook\grapplinghook.cs" />
+     <Compile Include="Assets\www\51,52 - GrapplingHook\roperatio.cs" />
+     <Compile Include="Assets\www\53 - Evil Face\follow.cs" />
+     <Compile Include="Assets\www\54 - Duck\duckmove.cs" />
+     <Compile Include="Assets\www\56,57 - Boss\bossscript.cs" />
+     <Compile Include="Assets\www\58,62 - Wall Jump\WallJump.cs" />
+     <Compile Include="Assets\www\61 - Outside Forces\turnOutsideForce.cs" />
+     <Compile Include="Assets\www\64 - Ladder\ladder.cs" />
+     <Compile Include="Assets\www\65 -WallSlide\wallSlide.cs" />
+     <Compile Include="Assets\www\66, 67- Shoot Mario&apos;s Fireball\fireball.cs" />
+     <Compile Include="Assets\www\68 - Homing Missile\homingMissile.cs" />
+     <Compile Include="Assets\www\69 - Pulland Pushblock\boxpull.cs" />
+     <Compile Include="Assets\www\69 - Pulland Pushblock\playerpush.cs" />
+     <Compile Include="Assets\www\69\NodeTest.cs" />
+     <Compile Include="Assets\www\69\TEST_nodeManager.cs" />
+     <Compile Include="Assets\www\7,8 - Collectable\Collectables.cs" />
+     <Compile Include="Assets\www\7,8 - Collectable\Sprits.cs" />
+     <Compile Include="Assets\www\70 - Climb Ledge\playerpush.cs" />
+     <None Include="Assets\Player &amp; General\DefaultColorFlash.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>E:/ProgramesClasse/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

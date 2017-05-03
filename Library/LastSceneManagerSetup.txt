@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/LIVES/36,37 - Lives.unity
+  isLoaded: 1
+  isActive: 1
